@@ -8,6 +8,6 @@ def FizzBuzz(start, finish):
         elif n % 5 == 0:
             outlist.append("buzz")
         else:
-            outlist.append(str(n))
+            outlist.append(n)
 
     return outlist
